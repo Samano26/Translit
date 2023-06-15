@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+}
+
+.header {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.08em;
+    margin-top: 40px;
+    color: #4520AB;
+    display: flex;
+    justify-content: center;
+}
+
+.input { 
+    margin: 182px 0px 0px ;
+    width: 500px;
+    height: 56px;
+    border: 2px solid #111111;
+    border-radius: 14px;
+    position:relative;
+}
+
+.button {
+    border: none;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+    gap: 10px;
+    width: 107px;
+    height: 38.08px;
+    background: #111111;
+    border-radius: 8px;
+    position: absolute;
+    margin: 0px 0px 10px 375px;
+    color: #FFFFFF;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 60px;
+}
+
+.container2 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.superDiv {
+    display: flex;
+}
+
+.translate {
+    width: 250px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #111111;
+    background-color: #a3a3a3;
+    border-radius: 0px 8px 8px 0px;
+     
+}
+
+.russian {
+    background: #F0F0F0;
+    border-radius: 8px 0px 0px 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #111111;
+    width: 250px;
+    white-space: nowrap;
+    
+    text-align: start;
+    
+}
+.russian-full{
+    
+    margin-top: 50px;
+}
+.translete-full{
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.russian-full, .translete-full{
+    display: none;
+    
+    position: absolute;
+    
+    height: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+    /* background: #F0F0F0;
+    border-radius: 8px 0px 0px 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #111111;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    text-align: start; */
+}
+
+.index1 {
+    margin-right: 28px;
+    margin-left: 12px;
+    padding-right: 12px;
+}
+
+
+
+.index2{
+    margin-right: 28px;
+    margin-left: 12px;
+
+}
+
+.delete {
+    position: relative;
+    
+}
+
+.cl {
+    
+    margin-top: 5%;
+    margin-left: 123px;
+}
+
+.full {
+    display: none;
+}
+
+.delete-new{
+    content: url(/deleteButton.svg);
+    float: right;
+    margin-top: 5%;
+}
+
+.clearAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 8px;
+    gap: 10px;
+}
